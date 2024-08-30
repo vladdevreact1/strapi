@@ -6,44 +6,44 @@ const Header: React.FC = () => {
 		<header className={styles.header}>
 			<div className='container'>
 				<nav className={styles.header__nav}>
-					<a href='/src/App.tsx' className={styles['header__logo-link']}>
+					<a href='#' className={styles.header__logo_link}>
 						<img src='/src/assets/muhammad-logo.svg' alt='muhammad-logo' />
 					</a>
 					<ul className={styles.header__menu}>
 						<li>
-							<a href='' className={styles['header__menu-link']}>
+							<a href='#' className={styles.header__menu_link}>
 								Home
 							</a>
 						</li>
 						<li>
-							<a href='' className={styles['header__menu-link']}>
+							<a href='#' className={styles.header__menu_link}>
 								About
 							</a>
 						</li>
 						<li>
-							<a href='' className={styles['header__menu-link']}>
+							<a href='#' className={styles.header__menu_link}>
 								Services
 							</a>
 						</li>
 						<li>
-							<a href='' className={styles['header__menu-link']}>
+							<a href='#' className={styles.header__menu_link}>
 								Projects
 							</a>
 						</li>
 						<li>
-							<a href='' className={styles['header__menu-link']}>
+							<a href='#' className={styles.header__menu_link}>
 								Testimonials
 							</a>
 						</li>
 						<li>
-							<a href='' className={styles['header__menu-link']}>
+							<a href='#' className={styles.header__menu_link}>
 								Contact Us
 							</a>
 						</li>
-						<li className={styles['header__download-box']}>
-							<a href='#' className={styles.header__download}>
+						<li className={styles.header__download_box}>
+							<button className={styles.header__download}>
 								Download CV
-							</a>
+							</button>
 						</li>
 					</ul>
 				</nav>

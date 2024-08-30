@@ -1,0 +1,48 @@
+.about_us{
+	padding-bottom: 97px;
+}
+
+.about_flex_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    gap: 92px;
+}
+
+.about_image{
+    display: block;
+    width: 563px;
+    height: 661px;
+}
+.about_heading {
+	color: rgb(0, 0, 0);
+	font-family: Poppins;
+	font-size: 65px;
+	font-weight: 600;
+	line-height: 98px;
+	letter-spacing: 3%;
+	text-align: left;
+}
+
+.about_description {
+	color: rgb(0, 0, 0);
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 3%;
+	text-align: left;
+}
+.about_list_item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.about_item_title {
+	color: rgb(0, 0, 0);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: 3%;
+	text-align: left;
+}

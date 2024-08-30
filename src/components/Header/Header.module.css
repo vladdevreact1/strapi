@@ -1,13 +1,6 @@
-/* header: основний блок.
-header__container: елемент, що представляє контейнер для навігації.
-header__nav: елемент для навігації.
-header__logo-link та header__logo: елементи для посилання на логотип і сам логотип відповідно.
-header__menu: елемент для списку навігації.
-header__menu-item: елементи списку.
-header__menu-link: посилання в кожному елементі списку. */
-
 .header {
 	padding: 62px 0 136px;
+	background: rgb(255, 255, 255);
 }
 
 .header__nav {
@@ -15,7 +8,7 @@ header__menu-link: посилання в кожному елементі спи�
 	justify-content: space-between;
 	align-items: center;
 }
-.header__logo-link {
+.header__logo_link {
 	margin-right: 121px;
 }
 
@@ -25,7 +18,7 @@ header__menu-link: посилання в кожному елементі спи�
 	gap: 41px;
 }
 
-.header__menu-link {
+.header__menu_link {
 	color: rgb(0, 0, 0);
 	font-size: 21px;
 	font-weight: 400;
@@ -34,25 +27,20 @@ header__menu-link: посилання в кожному елементі спи�
 	text-align: left;
 }
 
-.header__download-box {
+.header__download {
 	width: 191.6px;
 	height: 52px;
-    border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	border: none;
 	background: rgb(255, 99, 0);
-}
-
-.header__download {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    /* NavBar Text 21 */
-color: rgb(255, 255, 255);
-font-family: Poppins;
-font-size: 21px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 3%;
-text-align: justify;
+	color: rgb(255, 255, 255);
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 3%;
+	text-align: justify;
+	cursor: pointer;
 }

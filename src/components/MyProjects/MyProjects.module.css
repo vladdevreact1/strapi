@@ -1,0 +1,97 @@
+.my_projects {
+	margin-bottom: 120px;
+}
+
+.my_projects_title {
+	color: rgb(0, 0, 0);
+	font-size: 65px;
+	line-height: 98px;
+	letter-spacing: 3%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.my_projects_description {
+	width: 932px;
+	color: rgb(0, 0, 0);
+	font-size: 21px;
+	line-height: 32px;
+	letter-spacing: 3%;
+	text-align: center;
+	margin: 0 auto 71px;
+}
+
+.my_projects_list_btns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 11px;
+	margin-bottom: 76px;
+}
+
+.my_projects_btn {
+	color: rgb(0, 0, 0);
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 3%;
+	text-align: left;
+	padding: 10px 15px;
+	border-radius: 8px;
+	background: rgb(243, 243, 243);
+	border: none;
+	cursor: pointer;
+}
+
+.active{
+    color: rgb(255, 255, 255);
+    background: rgb(253, 111, 0);
+}
+
+.my_projects_list_pages {
+	display: flex;
+	align-items: center;
+	gap: 37px;
+}
+
+.my_projects_page {
+	flex-basis: calc((100% - 74px) / 3);
+}
+
+.my_projects_container_page {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background: rgb(243, 243, 243);
+	margin-bottom: 37px;
+}
+
+.my_projects_page_image_first {
+	position: absolute;
+	top: 89px;
+	left: 32px;
+	z-index: 1;
+}
+.my_projects_page_image_second {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	bottom: 0;
+}
+
+.my_projects_page_type {
+	color: rgb(255, 99, 0);
+	font-size: 19px;
+	line-height: 29px;
+	letter-spacing: 3%;
+	text-align: left;
+}
+
+.my_projects_page_type_text {
+	color: rgb(0, 0, 0);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: 3%;
+	text-align: left;
+    margin-top: 10px;
+}
