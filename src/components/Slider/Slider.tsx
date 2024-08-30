@@ -1,22 +1,19 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
 
-import styles from './Testimonials.module.css'
-import Slider from '../Slider/Slider'
 
-const Testimonials: React.FC = () => {
+import { A11y, Pagination, Scrollbar } from 'swiper/modules'
+import { testimonialsSwiper } from '../../utils/data'
+import { TestimoniesData } from '../../utils/interface'
+
+import styles from './Slider.module.css'
+
+const Slider: React.FC = () => {
 
 	return (
-		<section className={styles.testimonials}>
-			<h2 className={styles.testimonials_title}>Testimonials</h2>
-			<p className={styles.testimonials_description}>
-				Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
-				felis ligula aliquam venenatis fghh hgjj nisi ante.
-			</p>
-			{/* <Swiper
+		
+			<Swiper
 				modules={[Pagination, Scrollbar, A11y]}
 				spaceBetween={200}
 				slidesPerView={2}
@@ -60,10 +57,8 @@ const Testimonials: React.FC = () => {
 							)}
 						</SwiperSlide>
 					))}
-			</Swiper> */}
-            <Slider />
-		</section>
+			</Swiper>
 	)
 }
 
-export default Testimonials
+export default Slider
